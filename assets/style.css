@@ -46,6 +46,7 @@ body {
   .cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
+  
   }
   footer {
     background-color: black;
