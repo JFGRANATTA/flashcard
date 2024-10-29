@@ -1,3 +1,3 @@
 function criaCartao(categoria, pergunta, respota){
-console.log(categoria, pergunta, resposta)
+console.log(categoria, pergunta, resposta);
 }
