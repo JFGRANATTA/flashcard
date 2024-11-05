@@ -13,4 +13,6 @@ cartao.innerHTML = `
 
                 </div>
 `
+let container = document.getElementById('container')
+container.appendChild(cartao)
 }
