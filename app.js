@@ -13,6 +13,12 @@ cartao.innerHTML = `
 
                 </div>
 `
+let respostaEstaVisivel = false
+    function viracartao (){
+        respostaEstaVisivel = !respostaEstaVisivel
+        cartao.classList.toggle('active', respostaEstaVisivel)
+    }
+cartao.addEventListener('click', viracartao)
 let container = document.getElementById('container')
 container.appendChild(cartao)
 }
